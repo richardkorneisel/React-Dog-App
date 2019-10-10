@@ -11,19 +11,21 @@ Refer back to the HTML in your previous dog-api-app to get ideas for the JSX in 
 
 ## Set Up
 
-1. Fork and clone this repo
+1. Fork and clone this repo and `cd` into it.
 2. Inside this repo, initialize a new React app with `npx create-react-app .` **<-- NOTICE THE DOT**
->Note: the dot in `npx create-react-app .` lets us turn our current working directory *into* a React app.
-3. `cd` into the app, clear the boilerplate, and install `axios`
-4. Create a `services/` directory and an `api-helper.js` file inside that directory
-5. Also create a `components/` directory
+>Note: the dot in `npx create-react-app .` turns our current working directory *into* a React app.
+3. Install axios with `npm install axios`
+4. Use `code .` to open the app in VS Code. 
+5. Turn `App.js` into a class component, clear the default JSX, and import `axios`
+6. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory
+7. Also create a `components/` directory
 
 ## Fetching Dogs
 
-- Let's first create a function inside of `api-helper.js` that will make an axios call to the dog api and retrieve the dog breeds. HINT: Refer to the [docs](https://dog.ceo/dog-api/) to find the correct endpoint to hit.
+- Let's first create a function inside of `api-helper.js` that will make an axios get request to the dog api and return a list of dog breeds. Make sure to export this function!
+>HINT: Refer to the [dog api docs](https://dog.ceo/dog-api/) to find the correct endpoint to hit.
 - Also keep in mind how we are going to parse the data. This api might throw you a curve ball. Take a look at out we parsed the data from our previous app.
-- `App.js` will need to be a class component because this is where we will be saving our dog breeds and dog pic. Go ahead and convert that from a functional component to a class component.
-- Now create a method that will use our function from `api-helper.js` to get a list of dog breeds and set them in state.
+- Now create a method in `App.js` that will use our function from `api-helper.js` to get a list of dog breeds and set them in state.
 - We can test our new method by putting it in `componentDidMount()`. Note: we only need componentDidMount for testing and wont be using it in our final app.
 - Let's create a new functional component called `BreedList.jsx`. This component will have a button and will take a list of breeds and show them.
 - In order to render the data from the list, we will need to loop through the data that should be passed down through props.
