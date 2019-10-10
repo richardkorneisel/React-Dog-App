@@ -17,8 +17,8 @@ Refer back to the HTML in your previous dog-api-app to get ideas for the JSX in 
 >Note: the dot in `npx create-react-app .` turns our current working directory *into* a React app.
 3. Install axios with `npm install axios`
 4. Use `code .` to open the app in VS Code. 
-5. Turn `App.js` into a class component, clear the default JSX, and import `axios`
-6. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory
+5. Turn `App.js` into a class component, clear the default JSX, 
+6. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory and import `axios` at the top of that file.
 7. Also create a `components/` directory
 
 
