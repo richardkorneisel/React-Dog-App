@@ -20,7 +20,7 @@ Refer back to the HTML in your previous dog-api-app to get ideas for the JSX in 
 5. Turn `App.js` into a class component, clear the default JSX, and import `axios`
 6. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory
 7. Also create a `components/` directory
-8. In `App.js` you'll need to track two things in state: `breeds` and `randomPic`. What do you think their initial states should be?
+
 
 ## Fetching Dogs
 
