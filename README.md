@@ -7,7 +7,7 @@ We will be making our previous [dog-api-hw](https://git.generalassemb.ly/sei-nyc
 ## Set Up
 
 1. Fork and clone this repo
-2. Inside this repo, initialize a new React app with `npx create-react-app .`
+2. Inside this repo, initialize a new React app with `npx create-react-app .` **<-- NOTICE THE DOT**
 3. `cd` into the app, clear the boilerplate, and install `axios`
 4. Create a `services/` directory and an `api-helper.js` file inside that directory
 5. Also create a `components/` directory
