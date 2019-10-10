@@ -2,7 +2,12 @@
 
 ## Overview
 
-We will be making our previous [dog-api-hw](https://git.generalassemb.ly/sei-nyc-pandas/dog-api-hw) in React. For this exercise think about what changes we might need to make for this. Where were our api calls made previously and where are they made in a React app? How do we want to break apart our components? Refer back to HTML in your previous dog-api-app to get ideas for the JSX in this new app. This time around, you can have some freedom with how you wish to style your app.
+We will be making our previous [dog-api-hw](https://git.generalassemb.ly/sei-nyc-pandas/dog-api-hw) in React. For this exercise, think about what changes we might need to make to go from Vanilla JS to React. 
+
+Where were our api calls made previously and where should they made in a React app? 
+How do we want to divide the pieces of our app into components? 
+
+Refer back to HTML in your previous dog-api-app to get ideas for the JSX in this new app. This time around, you can have some freedom with how you wish to style your app.
 
 ## Set Up
 
