@@ -7,12 +7,13 @@ We will be making our previous [dog-api-hw](https://git.generalassemb.ly/sei-nyc
 Where were our api calls made previously and where should they made in a React app? 
 How do we want to divide the pieces of our app into components? 
 
-Refer back to HTML in your previous dog-api-app to get ideas for the JSX in this new app. This time around, you can have some freedom with how you wish to style your app.
+Refer back to the HTML in your previous dog-api-app to get ideas for the JSX in this new app. This time around, you can have some freedom with how you wish to style your app.
 
 ## Set Up
 
 1. Fork and clone this repo
 2. Inside this repo, initialize a new React app with `npx create-react-app .` **<-- NOTICE THE DOT**
+>Note: the dot in `npx create-react-app .` lets us turn our current working directory *into* a React app.
 3. `cd` into the app, clear the boilerplate, and install `axios`
 4. Create a `services/` directory and an `api-helper.js` file inside that directory
 5. Also create a `components/` directory
