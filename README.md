@@ -2,31 +2,21 @@
 
 ## Overview
 
-We will be making our previous [dog-api-hw](https://git.generalassemb.ly/sei-nyc-pandas/dog-api-hw) in React. For this exercise, think about what changes we might need to make to go from Vanilla JS to React. 
-
-Where were our api calls made previously and where should they made in a React app? 
-How do we want to divide the pieces of our app into components? 
-What data should be stored in state?
-
-Refer back to the HTML in your previous dog-api-app to get ideas for the JSX in this new app. This time around, you can have some freedom with how you wish to style your app.
-
 ## Set Up
 
-1. Fork and clone this repo and `cd` into it.
-2. Inside this repo, initialize a new React app with `npx create-react-app .` **<-- NOTICE THE DOT**
->Note: the dot in `npx create-react-app .` turns our current working directory *into* a React app.
-3. Install axios with `npm install axios`
-4. Use `code .` to open the app in VS Code. 
-5. Turn `App.js` into a class component, clear the default JSX, 
-6. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory and import `axios` at the top of that file.
-7. Also create a `components/` directory
+1. Initialize a new React app with `npm create-react-app dog-app`
+2. Install axios with `npm install axios`
+3. Use `code .` to open the app in VS Code (or `atom .` or `subl .`. 
+4. Turn `App.js` into a class component, clear the default JSX, 
+5. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory and import `axios` at the top of that file.
+6. Also create a `components/` directory
 
 
 ## Fetching Dogs
 
 - Let's first create a function inside of `api-helper.js` that will make an axios get request to the dog api and return a list of dog breeds. Make sure to export this function and import it to `App.js`!
 >HINT: Refer to the [dog api docs](https://dog.ceo/dog-api/) to find the correct endpoint to hit.
-- Also keep in mind how we are going to parse the data. This api might throw you a curve ball. Take a look at out we parsed the data from our previous app.
+- Also keep in mind how we are going to parse the data. This api might throw you a curve ball.
 - Now create a method in `App.js` that will use our function from `api-helper.js` to get a list of dog breeds and set them in state. We can test our new method by putting it in `componentDidMount()`. 
 >Note: we only need componentDidMount for testing. We wont be using it in our final app.
 
