@@ -4,7 +4,7 @@
 
 ## Set Up
 
-1. Initialize a new React app with `npm create-react-app dog-app`
+1. Initialize a new React app with `create-react-app --use-npm dog-app`
 2. Install axios with `npm install axios`
 3. Use `code .` to open the app in VS Code (or `atom .` or `subl .`. 
 4. Turn `App.js` into a class component, clear the default JSX, 
