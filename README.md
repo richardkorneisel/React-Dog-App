@@ -20,6 +20,7 @@
 - Now create a method in `App.js` that will use our function from `api-helper.js` to get a list of dog breeds and set them in state. We can test our new method by putting it in `componentDidMount()`. 
 >Note: we only need componentDidMount for testing. We wont be using it in our final app.
 
+
 - Let's create a new functional component called `BreedList.jsx`. This component will have a button and will take a list of breeds, and map them onto the screen.
 >Note: In order to render the data from the list, we'll need to pass that data from the state of `App.js` to the `BreedList` component through props.
 - The button will need an `onClick` function. Use our api method from `App.js` as that function passed down through props.
