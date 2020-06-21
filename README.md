@@ -4,12 +4,11 @@
 
 ## Set Up
 
-1. Initialize a new React app with `create-react-app --use-npm dog-app`
-2. Install axios with `npm install axios`
-3. Use `code .` to open the app in VS Code (or `atom .` or `subl .`. 
-4. Turn `App.js` into a class component, clear the default JSX, 
-5. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory and import `axios` at the top of that file.
-6. Also create a `components/` directory
+1. Make a copy of the `react-boilerplate`: `cp -r react-boilerplate dog-app`
+2. Use `code .` to open the app in VS Code (or `atom .` or `subl .`. 
+3. Turn `App.js` into a class component, clear the default JSX, 
+4. Inside the `src` folder, create a `services/` directory and an `api-helper.js` file inside that directory and import `axios` at the top of that file.
+5. Also create a `components/` directory
 
 
 ## Fetching Dogs
