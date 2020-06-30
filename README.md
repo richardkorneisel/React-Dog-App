@@ -4,7 +4,7 @@
 
 ## Set Up
 
-1. Fork, clone, cd into the directory
+1. Clone, cd into the directory
 2. Use `code .` to open the app in VS Code (or `atom .` or `subl .`. 
 3. Turn `App.js` into a class component, clear the default JSX, 
 4. Import `axios` into the App.js file.
