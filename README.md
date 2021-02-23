@@ -5,9 +5,9 @@
 ## Set Up
 
 1. Clone, cd into the directory
-1. Use `code .` to open the app in VS Code (or `atom .` or `subl .`. 
+1. Use `code .` to open the app in VS Code
 1. `npm install` the application
-1. Turn `App.js` into a class component, clear the default JSX, 
+1. Turn `App.js` into a class component, clear the default JSX. 
 1. `npm install axios` and import `axios` into the App.js file.
 1. Also create a `components/` directory
 
