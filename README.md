@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Software Engineering Immersive
 
 ## Overview
 
@@ -6,8 +6,8 @@
 
 1. Fork, clone, and cd into the directory
 1. Use `code .` to open the app in VS Code
-1. `npm install` the application
-1. `npm install axios` and import `axios` into the App.js file.
+1. `npm install` the application- [More info here on what this does](https://www.stackchief.com/tutorials/npm%20install%20%7C%20how%20it%20works)
+1. Install any packages we might need (i.e.`npm install axios`,`npm install react-router react-router-dom`. Remember to import them where appropriate in your app)
 1. Turn `App.js` into a class component, clear the default JSX. 
 1. Also create a `components/` directory
 
@@ -21,16 +21,16 @@
 >Note: we only need componentDidMount for testing. We wont be using it in our final app.
 
 
-- Let's create a new functional component called `BreedList.js`. This component will have a button and will take a list of breeds, and map them onto the screen.
+- Let's create a new component called `BreedList.js`. This component will have a button and will take a list of breeds, and map them onto the screen.
 >Note: In order to render the data from the list, we'll need to pass that data from the state of `App.js` to the `BreedList` component through props.
 - The button will need an `onClick` function. Use our api method from `App.js` as that function passed down through props.
 - In `App.js`, import our `BreedList.js` component and render it to the DOM. When we are calling it, we should pass the dog breeds through props from state and also our api method.
 
 ## Random Dog Pix
 
-- For the random pog pictures, Let's start by making another function that makes another axios get request in `App.js`. This function needs to take a parameter for the dog breed. We can interpolate that parameter into the url string for our endpoint (similar to the homework from Friday!). You can now set the response in state.
+- For the random pog pictures, let's start by making another function that makes another axios get request in `App.js`. This function needs to take a parameter for the dog breed. We can interpolate that parameter into the url string for our endpoint (similar to the homework from Friday!). You can now set the response in state.
 
-- Make a new component called `RandomDogs.js`. This component should be a functional component.
+- Make a new component called `RandomDogs.js`.
 - We can build out a simple form with one input and a button. The input will need a `handleChange` function passed to it through props.
 
 - For the onSubmit function of the form, we can use our api function from `App.js` that grabs the random dog pic. We will need to pass it a argument. **That means that we need to nest it inside of an anonymous arrow function.** Remember that the arrow function needs to handle the preventDefault on the event instead of the api method.
