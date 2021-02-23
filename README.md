@@ -50,5 +50,5 @@ Now we need a way of conditionally switching between our two components.
 - Lets make a `Header.js` component that has our "My Dog Website" title and two links. 
 >Hint: don't use `<a>` tags. Use something like a `<span>` or `<li>` and just make them look like links.
 - On our links, add onClick functions. These will be anonymous arrow functions again. We can then call our `setView` method from `App.js` inside of these onClick functions. Pass the value 'random dogs' to one of the `setView` functions. The other `setView` can take 'dog breeds' (or anything really. it's our default case)
-- Import `Header.js` into `App.js` and call it inside our render above our `{this.pageView()}`. Don't forget to pass `setView` through props. 
+- Import `Header.js` into `App.js` and call it inside our render above our `{this.pageView()}`. Don't forget to pass `setView` through props.   
 ![](https://media3.giphy.com/media/Yx5ns1mSPBle0/giphy.gif)
